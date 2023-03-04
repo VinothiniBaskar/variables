@@ -28,10 +28,12 @@ public class LearnGLoVar {
 		l.printDept();
 		LearnLocalVar lc = new LearnLocalVar();
 		lc.printComapany();
-		System.out.println(lc.cName1);
-		// we can't access the variable ,because it is declared as local variable  in the particular method
+
+		// we can't access the variable ,because it is declared as local variable in the
+		// particular method
 //		System.out.println(l.cName);
 
 	}
+
 
 }
